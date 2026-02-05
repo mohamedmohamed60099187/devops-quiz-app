@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-code-branch"></i> DevOps Quiz Challenge</h1>
+            <p>Test your DevOps knowledge across CI/CD, Version Control, Culture, and more.</p>
+        </header>
+
+        <main>
+            <section id="topic-selection" class="card">
+                <h2><i class="fas fa-folder-open"></i> Select a Topic</h2>
+                <div id="topic-buttons">
+                    <!-- Topics will be loaded by JavaScript -->
+                </div>
+            </section>
+
+            <section id="quiz-section" class="card hidden">
+                <h2><i class="fas fa-question-circle"></i> Question</h2>
+                <div id="question-container">
+                    <p id="question-text">Question text will appear here.</p>
+                    <div id="options-container">
+                        <!-- Options will be loaded by JS -->
+                    </div>
+                </div>
+                <div id="navigation">
+                    <button id="prev-btn" class="btn-secondary"><i class="fas fa-arrow-left"></i> Previous</button>
+                    <button id="next-btn" class="btn-primary">Next <i class="fas fa-arrow-right"></i></button>
+                    <button id="submit-btn" class="btn-success hidden"><i class="fas fa-paper-plane"></i> Submit Answer</button>
+                </div>
+            </section>
+
+            <section id="feedback-section" class="card hidden">
+                <h2><i class="fas fa-comment-alt"></i> Feedback</h2>
+                <p id="feedback-text"></p>
+                <p id="explanation-text"></p>
+                <button id="restart-btn" class="btn-primary"><i class="fas fa-redo"></i> Restart Quiz</button>
+            </section>
+        </main>
+
+        <footer>
+            <p>Built for DevOps Assignment 04 | Distributed Version Control with GitHub</p>
+            <p><i class="fas fa-code"></i> Uses HTML, CSS, JavaScript, and Git</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
