@@ -10,7 +10,253 @@
         "Avoid using branches"
       ],
       "answerIndex": 1,
-      "explanation": "Continuous Integration focuses on early detection of integration issues."
+      "explanation": "CI focuses on integrating code frequently to detect issues early."
+    },
+    {
+      "id": "Q2",
+      "topic": "Version Control",
+      "question": "Which system is commonly used for distributed version control?",
+      "options": [
+        "SVN",
+        "FTP",
+        "Git",
+        "HTTP"
+      ],
+      "answerIndex": 2,
+      "explanation": "Git is a distributed version control system."
+    },
+    {
+      "id": "Q3",
+      "topic": "DevOps Culture",
+      "question": "What is a key principle of DevOps culture?",
+      "options": [
+        "Siloed teams",
+        "Manual deployments",
+        "Collaboration between teams",
+        "No automation"
+      ],
+      "answerIndex": 2,
+      "explanation": "DevOps emphasizes collaboration between development and operations."
+    },
+    {
+      "id": "Q4",
+      "topic": "Continuous Delivery",
+      "question": "What does Continuous Delivery ensure?",
+      "options": [
+        "Code is always ready for release",
+        "Code is deployed automatically",
+        "Testing is skipped",
+        "No version control is needed"
+      ],
+      "answerIndex": 0,
+      "explanation": "Continuous Delivery ensures software can be released at any time."
+    },
+    {
+      "id": "Q5",
+      "topic": "Infrastructure as Code",
+      "question": "What is Infrastructure as Code?",
+      "options": [
+        "Manual server setup",
+        "Managing infrastructure using code",
+        "Only cloud infrastructure",
+        "Network monitoring"
+      ],
+      "answerIndex": 1,
+      "explanation": "IaC manages infrastructure through code and automation."
+    },
+    {
+      "id": "Q6",
+      "topic": "Continuous Deployment",
+      "question": "What is the key difference between Continuous Delivery and Continuous Deployment?",
+      "options": [
+        "Continuous Deployment requires manual approval",
+        "Continuous Delivery is always automated",
+        "Continuous Deployment automatically releases to production",
+        "There is no difference"
+      ],
+      "answerIndex": 2,
+      "explanation": "Continuous Deployment includes automatic production releases."
+    },
+    {
+      "id": "Q7",
+      "topic": "Version Control",
+      "question": "What is a 'pull request' used for?",
+      "options": [
+        "To delete a branch",
+        "To propose and review changes before merging",
+        "To bypass testing",
+        "To create backups"
+      ],
+      "answerIndex": 1,
+      "explanation": "A pull request is a code review mechanism in Git workflows."
+    },
+    {
+      "id": "Q8",
+      "topic": "DevOps Culture",
+      "question": "Which practice helps reduce deployment failures?",
+      "options": [
+        "Infrequent deployments",
+        "Automated testing",
+        "Manual deployments only",
+        "No version control"
+      ],
+      "answerIndex": 1,
+      "explanation": "Automated testing catches issues before deployment."
+    },
+    {
+      "id": "Q9",
+      "topic": "Continuous Integration",
+      "question": "What should happen after each commit in CI?",
+      "options": [
+        "Manual review by a manager",
+        "Automated build and tests",
+        "Skip the build process",
+        "Deploy to production"
+      ],
+      "answerIndex": 1,
+      "explanation": "CI triggers automated builds and tests on each commit."
+    },
+    {
+      "id": "Q10",
+      "topic": "Plan with DevOps",
+      "question": "What does 'Shift Left' mean in DevOps?",
+      "options": [
+        "Delay testing",
+        "Move testing earlier in the cycle",
+        "Ignore security",
+        "Move operations left"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Shift Left' means testing early in the development cycle."
+    },
+    {
+      "id": "Q11",
+      "topic": "Continuous Integration",
+      "question": "Which tool is commonly used for CI?",
+      "options": [
+        "Jenkins",
+        "MySQL",
+        "Docker",
+        "Kubernetes"
+      ],
+      "answerIndex": 0,
+      "explanation": "Jenkins is a widely-used CI automation server."
+    },
+    {
+      "id": "Q12",
+      "topic": "Infrastructure as Code",
+      "question": "Which tool is used for IaC?",
+      "options": [
+        "Terraform",
+        "Excel",
+        "Photoshop",
+        "Word"
+      ],
+      "answerIndex": 0,
+      "explanation": "Terraform is a popular IaC tool."
+    },
+    {
+      "id": "Q13",
+      "topic": "DevOps Culture",
+      "question": "What is 'Blame Culture' opposite to?",
+      "options": [
+        "Collaborative Culture",
+        "Siloed Culture",
+        "Automation Culture",
+        "DevOps Culture"
+      ],
+      "answerIndex": 0,
+      "explanation": "DevOps promotes collaboration over blame."
+    },
+    {
+      "id": "Q14",
+      "topic": "Continuous Delivery",
+      "question": "What is a deployment pipeline?",
+      "options": [
+        "A manual checklist",
+        "An automated sequence for delivering software",
+        "A network cable",
+        "A cloud region"
+      ],
+      "answerIndex": 1,
+      "explanation": "A deployment pipeline automates the steps to release software."
+    },
+    {
+      "id": "Q15",
+      "topic": "Version Control",
+      "question": "What is a 'merge conflict'?",
+      "options": [
+        "A bug in the code",
+        "When Git cannot automatically merge changes",
+        "A type of CI failure",
+        "A network issue"
+      ],
+      "answerIndex": 1,
+      "explanation": "Merge conflicts happen when changes overlap and need manual resolution."
+    },
+    {
+      "id": "Q16",
+      "topic": "Plan with DevOps",
+      "question": "What is 'Value Stream Mapping' used for?",
+      "options": [
+        "To draw network diagrams",
+        "To visualize and improve delivery flow",
+        "To track server costs",
+        "To assign tasks"
+      ],
+      "answerIndex": 1,
+      "explanation": "Value Stream Mapping helps identify bottlenecks in delivery processes."
+    },
+    {
+      "id": "Q17",
+      "topic": "Continuous Deployment",
+      "question": "Which practice is essential for safe Continuous Deployment?",
+      "options": [
+        "Manual testing only",
+        "Feature flags",
+        "No monitoring",
+        "Infrequent releases"
+      ],
+      "answerIndex": 1,
+      "explanation": "Feature flags allow controlled rollouts and quick rollbacks."
+    },
+    {
+      "id": "Q18",
+      "topic": "Infrastructure as Code",
+      "question": "What is a benefit of IaC?",
+      "options": [
+        "Manual errors increase",
+        "Consistency across environments",
+        "Slower provisioning",
+        "No versioning"
+      ],
+      "answerIndex": 1,
+      "explanation": "IaC ensures infrastructure is consistent and repeatable."
+    },
+    {
+      "id": "Q19",
+      "topic": "DevOps Culture",
+      "question": "What does 'Fail Fast' encourage?",
+      "options": [
+        "Hiding mistakes",
+        "Learning quickly from failures",
+        "Avoiding experiments",
+        "Blaming others"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Fail Fast' means detecting issues early to learn and adapt quickly."
+    },
+    {
+      "id": "Q20",
+      "topic": "Version Control",
+      "question": "What is 'git rebase' used for?",
+      "options": [
+        "To delete the repository",
+        "To rewrite commit history neatly",
+        "To skip CI checks",
+        "To create a backup"
+      ],
+      "answerIndex": 1,
+      "explanation": "Rebase integrates changes by moving or combining commits."
     }
   ]
-  
