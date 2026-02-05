@@ -1,0 +1,16 @@
+[
+    {
+      "id": "Q1",
+      "topic": "Continuous Integration",
+      "question": "What is the main goal of Continuous Integration?",
+      "options": [
+        "Deploy code directly to production",
+        "Frequently integrate code into a shared repository",
+        "Eliminate the need for testing",
+        "Avoid using branches"
+      ],
+      "answerIndex": 1,
+      "explanation": "Continuous Integration focuses on early detection of integration issues."
+    }
+  ]
+  
