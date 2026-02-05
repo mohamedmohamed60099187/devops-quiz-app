@@ -128,5 +128,135 @@
       ],
       "answerIndex": 1,
       "explanation": "'Shift Left' means testing early in the development cycle."
+    },
+    {
+      "id": "Q11",
+      "topic": "Continuous Integration",
+      "question": "Which tool is commonly used for CI?",
+      "options": [
+        "Jenkins",
+        "MySQL",
+        "Docker",
+        "Kubernetes"
+      ],
+      "answerIndex": 0,
+      "explanation": "Jenkins is a widely-used CI automation server."
+    },
+    {
+      "id": "Q12",
+      "topic": "Infrastructure as Code",
+      "question": "Which tool is used for IaC?",
+      "options": [
+        "Terraform",
+        "Excel",
+        "Photoshop",
+        "Word"
+      ],
+      "answerIndex": 0,
+      "explanation": "Terraform is a popular IaC tool."
+    },
+    {
+      "id": "Q13",
+      "topic": "DevOps Culture",
+      "question": "What is 'Blame Culture' opposite to?",
+      "options": [
+        "Collaborative Culture",
+        "Siloed Culture",
+        "Automation Culture",
+        "DevOps Culture"
+      ],
+      "answerIndex": 0,
+      "explanation": "DevOps promotes collaboration over blame."
+    },
+    {
+      "id": "Q14",
+      "topic": "Continuous Delivery",
+      "question": "What is a deployment pipeline?",
+      "options": [
+        "A manual checklist",
+        "An automated sequence for delivering software",
+        "A network cable",
+        "A cloud region"
+      ],
+      "answerIndex": 1,
+      "explanation": "A deployment pipeline automates the steps to release software."
+    },
+    {
+      "id": "Q15",
+      "topic": "Version Control",
+      "question": "What is a 'merge conflict'?",
+      "options": [
+        "A bug in the code",
+        "When Git cannot automatically merge changes",
+        "A type of CI failure",
+        "A network issue"
+      ],
+      "answerIndex": 1,
+      "explanation": "Merge conflicts happen when changes overlap and need manual resolution."
+    },
+    {
+      "id": "Q16",
+      "topic": "Plan with DevOps",
+      "question": "What is 'Value Stream Mapping' used for?",
+      "options": [
+        "To draw network diagrams",
+        "To visualize and improve delivery flow",
+        "To track server costs",
+        "To assign tasks"
+      ],
+      "answerIndex": 1,
+      "explanation": "Value Stream Mapping helps identify bottlenecks in delivery processes."
+    },
+    {
+      "id": "Q17",
+      "topic": "Continuous Deployment",
+      "question": "Which practice is essential for safe Continuous Deployment?",
+      "options": [
+        "Manual testing only",
+        "Feature flags",
+        "No monitoring",
+        "Infrequent releases"
+      ],
+      "answerIndex": 1,
+      "explanation": "Feature flags allow controlled rollouts and quick rollbacks."
+    },
+    {
+      "id": "Q18",
+      "topic": "Infrastructure as Code",
+      "question": "What is a benefit of IaC?",
+      "options": [
+        "Manual errors increase",
+        "Consistency across environments",
+        "Slower provisioning",
+        "No versioning"
+      ],
+      "answerIndex": 1,
+      "explanation": "IaC ensures infrastructure is consistent and repeatable."
+    },
+    {
+      "id": "Q19",
+      "topic": "DevOps Culture",
+      "question": "What does 'Fail Fast' encourage?",
+      "options": [
+        "Hiding mistakes",
+        "Learning quickly from failures",
+        "Avoiding experiments",
+        "Blaming others"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Fail Fast' means detecting issues early to learn and adapt quickly."
+    },
+    {
+      "id": "Q20",
+      "topic": "Version Control",
+      "question": "What is 'git rebase' used for?",
+      "options": [
+        "To delete the repository",
+        "To rewrite commit history neatly",
+        "To skip CI checks",
+        "To create a backup"
+      ],
+      "answerIndex": 1,
+      "explanation": "Rebase integrates changes by moving or combining commits."
     }
   ]
