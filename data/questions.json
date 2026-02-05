@@ -10,7 +10,59 @@
         "Avoid using branches"
       ],
       "answerIndex": 1,
-      "explanation": "Continuous Integration focuses on early detection of integration issues."
+      "explanation": "CI focuses on integrating code frequently to detect issues early."
+    },
+    {
+      "id": "Q2",
+      "topic": "Version Control",
+      "question": "Which system is commonly used for distributed version control?",
+      "options": [
+        "SVN",
+        "FTP",
+        "Git",
+        "HTTP"
+      ],
+      "answerIndex": 2,
+      "explanation": "Git is a distributed version control system."
+    },
+    {
+      "id": "Q3",
+      "topic": "DevOps Culture",
+      "question": "What is a key principle of DevOps culture?",
+      "options": [
+        "Siloed teams",
+        "Manual deployments",
+        "Collaboration between teams",
+        "No automation"
+      ],
+      "answerIndex": 2,
+      "explanation": "DevOps emphasizes collaboration between development and operations."
+    },
+    {
+      "id": "Q4",
+      "topic": "Continuous Delivery",
+      "question": "What does Continuous Delivery ensure?",
+      "options": [
+        "Code is always ready for release",
+        "Code is deployed automatically",
+        "Testing is skipped",
+        "No version control is needed"
+      ],
+      "answerIndex": 0,
+      "explanation": "Continuous Delivery ensures software can be released at any time."
+    },
+    {
+      "id": "Q5",
+      "topic": "Infrastructure as Code",
+      "question": "What is Infrastructure as Code?",
+      "options": [
+        "Manual server setup",
+        "Managing infrastructure using code",
+        "Only cloud infrastructure",
+        "Network monitoring"
+      ],
+      "answerIndex": 1,
+      "explanation": "IaC manages infrastructure through code and automation."
     }
   ]
   
