@@ -63,6 +63,70 @@
       ],
       "answerIndex": 1,
       "explanation": "IaC manages infrastructure through code and automation."
+    },
+    {
+      "id": "Q6",
+      "topic": "Continuous Deployment",
+      "question": "What is the key difference between Continuous Delivery and Continuous Deployment?",
+      "options": [
+        "Continuous Deployment requires manual approval",
+        "Continuous Delivery is always automated",
+        "Continuous Deployment automatically releases to production",
+        "There is no difference"
+      ],
+      "answerIndex": 2,
+      "explanation": "Continuous Deployment includes automatic production releases."
+    },
+    {
+      "id": "Q7",
+      "topic": "Version Control",
+      "question": "What is a 'pull request' used for?",
+      "options": [
+        "To delete a branch",
+        "To propose and review changes before merging",
+        "To bypass testing",
+        "To create backups"
+      ],
+      "answerIndex": 1,
+      "explanation": "A pull request is a code review mechanism in Git workflows."
+    },
+    {
+      "id": "Q8",
+      "topic": "DevOps Culture",
+      "question": "Which practice helps reduce deployment failures?",
+      "options": [
+        "Infrequent deployments",
+        "Automated testing",
+        "Manual deployments only",
+        "No version control"
+      ],
+      "answerIndex": 1,
+      "explanation": "Automated testing catches issues before deployment."
+    },
+    {
+      "id": "Q9",
+      "topic": "Continuous Integration",
+      "question": "What should happen after each commit in CI?",
+      "options": [
+        "Manual review by a manager",
+        "Automated build and tests",
+        "Skip the build process",
+        "Deploy to production"
+      ],
+      "answerIndex": 1,
+      "explanation": "CI triggers automated builds and tests on each commit."
+    },
+    {
+      "id": "Q10",
+      "topic": "Plan with DevOps",
+      "question": "What does 'Shift Left' mean in DevOps?",
+      "options": [
+        "Delay testing",
+        "Move testing earlier in the cycle",
+        "Ignore security",
+        "Move operations left"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Shift Left' means testing early in the development cycle."
     }
   ]
-  
