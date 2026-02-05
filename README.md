@@ -8,3 +8,10 @@ Each question in `data/questions.json` follows this structure:
 - `options`: Array of 4 answer choices
 - `answerIndex`: 0‑based index of the correct answer
 - `explanation`: Brief explanation shown after answering
+
+
+## Features
+- Topic selection from available DevOps categories
+- Interactive question display with option selection
+- Immediate feedback with explanations
+- Responsive and modern UI with gradient design
